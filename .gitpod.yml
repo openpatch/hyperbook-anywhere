@@ -4,7 +4,7 @@ ports:
     onOpen: open-preview
 tasks:
   - init: npx --yes hyperbook setup
-  - command: npx --yes hyperbook dev
+    command: npx --yes hyperbook dev
 vscode:
   extensions:
     - openpatch.hyperbook-studio
