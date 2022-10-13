@@ -3,8 +3,8 @@ ports:
     port: 3000
     onOpen: open-preview
 tasks:
-  - init: npx hyperbook setup
-  - command: npx hyperbook dev
+  - init: npx --yes hyperbook setup
+  - command: npx --yes hyperbook dev
 vscode:
   extensions:
     - openpatch.hyperbook-studio
