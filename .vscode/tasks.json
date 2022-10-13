@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "Hyperbook Setup",
+        "type": "shell",
+        "group": "none",
+        "command": "npx hyperbook setup",
+    }, {
+        "label": "Hyperbook Build",
+        "group": "build",
+        "type": "shell",
+        "command": "npx hyperbook build"
+    }]
+}

@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Launch Hyperbook Dev server",
+        "request": "launch",
+        "runtimeExecutable": "npx",
+        "runtimeArgs": [
+            "hyperbook",
+            "dev"
+        ],
+        "type": "node",
+        "serverReadyAction": {
+            "action": "openExternally",
+            "pattern": "> Ready on http://localhost:([0-9]+)",
+            "uriFormat": "http://localhost:%s"
+        }
+    }]
+}
