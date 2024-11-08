@@ -1,6 +1,5 @@
 {
   "cleanUrls": true,
   "buildCommand": "npx hyperbook build",
-  "installComamnd": "npx hyperbook setup",
   "outputDirectory": ".hyperbook/out"
 }
