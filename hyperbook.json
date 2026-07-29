@@ -1,7 +1,7 @@
 {
   "name": "Hyperbook GitHub Pages",
   "logo": "/logo.png",
-  "version": "0.0.1",
+  "version": "text",
   "description": "This is an example for deploying Hyperbook on GitHub pages",
   "author": {
     "name": "Mike Barkmin",
